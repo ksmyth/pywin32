@@ -2480,7 +2480,7 @@ cmdclass = { 'install': my_install,
            }
 
 dist = setup(name="pywin32",
-      version=str(build_id),
+      version=build_id_patch,
       description="Python for Window Extensions",
       long_description="Python extensions for Microsoft Windows\n"
                        "Provides access to much of the Win32 API, the\n"
